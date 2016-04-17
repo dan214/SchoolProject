@@ -1,0 +1,44 @@
+This is a system that runs a simplified stochatic simulation of a basic virus and the patient it attacks. 
+There are some parameters required for simulation. I have provided them for easier understanding. You may 
+tweak the parameters to better understand the simulation process.
+Running
+Simply run main.py
+These are the parameters for simulation
+Simple Simulation
+Viruses   100
+Maximum Sustainable Virus Population   1000
+Maximum Reproduction Probability    0.1
+maximum clearance probability   0.05
+timesteps  300
+
+Simulation With Drug
+Viruses   100
+Maximum Sustainable Virus Population   1000
+Maximum Reproduction Probability    0.1
+maximum clearance probability   0.05
+Drugs to include in experiment  guttagonol
+probability of mutation  0.005
+timesteps  300
+
+Delayed Treatment 
+
+Timesteps before administring treatment  300
+timesteps after administering treatment 150
+
+2 independent drugs
+
+Viruses   100
+Maximum Sustainable Virus Population   1000
+Maximum Reproduction Probability    0.1
+maximum clearance probability   0.05
+Drugs to include in experiment  guttagonol
+probability of mutation  0.005
+timesteps  300
+
+To include database functionality,uncomment lines 28 through to 231. Then go to DB_manager. go to line 15 and change the username and password for your localhost.
+Then go back to main.py line 1151 change 
+ex = Ui_MainWindow()
+to be 
+ex = Ui_Login()
+then run main.py 
+Voila!

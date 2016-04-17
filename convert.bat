@@ -1,0 +1,1 @@
+pyuic4  DelayedTreat.ui -o DelayedTreat.py
