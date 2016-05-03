@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
-import mysql.connector
-from mysql.connector import errorcode
-from datetime import datetime
+#import mysql.connector
+#from mysql.connector import errorcode
+#from datetime import datetime
 
 ##===============================================
 
@@ -79,11 +79,11 @@ class DatabaseUtility:
 ##===============================================
 
 
-if __name__ == '__main__':
-	db = 'UsernamePassword_DB'
-	tableName = 'masterTable'
+#if __name__ == '__main__':
+#	db = 'UsernamePassword_DB'
+#	tableName = 'masterTable'
 
-	dbu = DatabaseUtility(db, tableName)
+#	dbu = DatabaseUtility(db, tableName)
 
 	# dbu.AddEntryToTable ('asdf', 'asdf')
 	# print (dbu.GetColumns())
