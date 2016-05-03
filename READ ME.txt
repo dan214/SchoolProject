@@ -35,7 +35,7 @@ Drugs to include in experiment  guttagonol
 probability of mutation  0.005
 timesteps  300
 
-To include database functionality,uncomment lines 28 through to 231. Then go to DB_manager. go to line 15 and change the username and password for your localhost.
+To include database functionality,uncomment lines 28 through to 231 in main.py. Then go to DB_manager, uncomment lines 3 to 5 and lines 82 to 86, uses mysql.connector. go to line 15 and change the username and password for your localhost.
 Then go back to main.py line 1151 change 
 ex = Ui_MainWindow()
 to be 
